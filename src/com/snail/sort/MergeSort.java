@@ -1,4 +1,4 @@
-package com.snail;
+package com.snail.sort;
 
 /**
  * 归并排序
