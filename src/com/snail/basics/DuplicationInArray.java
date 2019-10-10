@@ -13,7 +13,7 @@ public class DuplicationInArray {
      * @return 返回的重复的数
      */
 
-    public static int getDumlication(int[] data) {
+    public static int getDuplication(int[] data) {
 
         if (data == null || data.length < 2) {
             return -1;
@@ -37,30 +37,35 @@ public class DuplicationInArray {
 
 
     /**
-     * 通过借助哈希表来实现，不改变数组原来的值，时间复杂度O(n),空间复杂度O(n)
+     * 解题思路：通过借助新的数组来实现，不改变数组原来的值。
+     * 通过开辟一个数组，以需要查找的数组的值作为新开辟的数组的下标，出现的次数作为新开辟的数组的下标对应的值。
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(n)
      *
      * @param data 需要查找的数组
      * @return 返回的重复的数
      */
-    public static int getDumlicationNotChangeArray(int[] data) {
+    public static int getDuplicationNotChangeArray(int[] data) {
         if (data == null || data.length < 2) {
             return -1;
         }
-        int[] hashTable = new int[data.length];
+        /**
+         * 避免数组中的值可能大于数组的长度，出现输出越界的问题
+         */
+        int[] hashTable = new int[data.length < 10 ? 10 : data.length];
         for (int item : data) {
-            if (item < data.length && hashTable[item] >= 1) {
+            if (hashTable[item] >= 1) {
                 return item;
-            } else if (item < data.length) {
-                hashTable[item] = 1;
+            } else {
+                hashTable[item] += 1;
             }
         }
         return -1;
     }
 
-
-    public static void test() {
-        int[] testArray = new int[]{1, 3, 2, 6, 3, 5};
-        System.out.println(getDumlication(testArray));
-        System.out.println(getDumlicationNotChangeArray(testArray));
+    public static void testInstance() {
+        int[] testArray = new int[]{1, 3, 2, 4, 7, 1};
+        System.out.println("getDumlication = " + getDuplication(testArray));
+        System.out.println("getDumlicationNotChangeArray = " + getDuplicationNotChangeArray(testArray));
     }
 }
