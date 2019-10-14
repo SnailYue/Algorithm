@@ -1,16 +1,14 @@
 package com.snail;
 
-import com.snail.basics.DuplicationInArray;
-import com.snail.basics.DuplicationInSortMatrix;
-import com.snail.basics.PrintNodeList;
-import com.snail.basics.ReplaceSpaceInString;
+import com.snail.basics.*;
 
 public class Main {
 
     public static void main(String[] args) {
-//        DuplicationInArray.testInstance();
+        DuplicationInArray.testInstance();
         DuplicationInSortMatrix.testInstance();
         ReplaceSpaceInString.testInstance();
         PrintNodeList.testInstance();
+        ReConstructBinaryTree.testInstance();
     }
 }
