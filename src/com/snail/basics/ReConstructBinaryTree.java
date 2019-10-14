@@ -3,6 +3,16 @@ package com.snail.basics;
 
 public class ReConstructBinaryTree {
 
+
+    /**
+     * 前序遍历及中序遍历然后重构二叉树
+     *
+     * 思路讲解：前序的第一个数是根节点，根据此节点，在中序的数组中查找相同的节点。
+     * 在中序数组中确定根节点之后，其左边的为根节点的左树，右边的为根节点的右树。以此递归，进行重构。
+     * @param preOrder
+     * @param inOrder
+     * @return
+     */
     public static TreeNode reConstructBinaryTree(int[] preOrder, int[] inOrder) {
         if (preOrder == null || inOrder == null || preOrder.length == 0 || preOrder.length != inOrder.length) {
             return null;

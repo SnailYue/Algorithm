@@ -7,6 +7,7 @@ public class TraversalOfBinaryTree {
 
     /**
      * 二叉树的前序遍历
+     * 采用递归的方式去进行遍历，先遍历父节点，然后遍历左叶子节点，最后遍历右叶子节点
      *
      * @param node
      * @return
@@ -25,6 +26,8 @@ public class TraversalOfBinaryTree {
     /**
      * 二叉树的中序遍历
      *
+     * 采用递归的方式去进行遍历，先遍历左子节点节点，然后遍历父节点，最后遍历右叶子节点
+     *
      * @param node
      * @return
      */
@@ -41,6 +44,8 @@ public class TraversalOfBinaryTree {
 
     /**
      * 二叉树的后序遍历
+     *
+     * 采用递归的方式去进行遍历，先遍历左子节点，然后遍历右叶子节点，最后遍历父节点
      *
      * @param node
      * @return
