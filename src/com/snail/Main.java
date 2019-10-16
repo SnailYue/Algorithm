@@ -10,5 +10,7 @@ public class Main {
         ReplaceSpaceInString.testInstance();
         PrintNodeList.testInstance();
         ReConstructBinaryTree.testInstance();
+        NextNodeInBinaryTree.testInstance();
+        QueueWithTwoStacks.twoStacksWithQueue();
     }
 }
