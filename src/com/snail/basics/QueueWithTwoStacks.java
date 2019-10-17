@@ -2,7 +2,7 @@ package com.snail.basics;
 
 import java.util.Stack;
 
-public class QueueWithTwoStacks{
+public class QueueWithTwoStacks {
 
     /**
      * 题目：使用两个栈实现一个队列
@@ -10,8 +10,9 @@ public class QueueWithTwoStacks{
      * 删除一个元素，当stacks2不为空时，在stacks2中的栈顶元素是最先进入队列的元素，可以弹出。
      * 当stacks2为空时，吧stacks1中的员超速逐个弹出并压入stacks2中。由于新进入队列的元素被压到了stacks1
      * 的低端，进过弹出和压入到stacks2中以后就位于stacks2的顶端，可以弹出。
-     *
+     * <p>
      * 由于栈的特点是先进后出，经过两次入栈之后，就会变成先进先出，达到队列的效果。
+     *
      * @param <T>
      */
     static class Queue<T> {
@@ -39,14 +40,13 @@ public class QueueWithTwoStacks{
                     stack2.push(stack1.pop());
                 }
                 return stack2.pop();
-            }
-            else {
+            } else {
                 return null;
             }
         }
     }
 
-    public static void twoStacksWithQueue(){
+    public static void twoStacksWithQueue() {
         Queue<Integer> queue = new Queue<>();
         queue.offer(1);
         queue.offer(2);
@@ -56,6 +56,10 @@ public class QueueWithTwoStacks{
         queue.offer(4);
         System.out.println(queue.poll());
         System.out.println(queue.poll());
+    }
+
+    public static void testInstance() {
+        twoStacksWithQueue();
     }
 
 }
