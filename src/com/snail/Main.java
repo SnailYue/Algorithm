@@ -13,5 +13,6 @@ public class Main {
 //        NextNodeInBinaryTree.testInstance();
 //        QueueWithTwoStacks.testInstance();
         StacksWithTwoQueue.testInstance();
+        Fibonacci.testInstance();
     }
 }
