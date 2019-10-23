@@ -15,5 +15,6 @@ public class Main {
         StacksWithTwoQueue.testInstance();
         Fibonacci.testInstance();
         MinNumberInRotateArray.testInstance();
+        PathInMatrix.testInstance();
     }
 }
