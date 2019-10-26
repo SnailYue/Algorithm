@@ -12,10 +12,11 @@ public class Main {
 //        ReConstructBinaryTree.testInstance();
 //        NextNodeInBinaryTree.testInstance();
 //        QueueWithTwoStacks.testInstance();
-        StacksWithTwoQueue.testInstance();
-        Fibonacci.testInstance();
-        MinNumberInRotateArray.testInstance();
-        PathInMatrix.testInstance();
-        RangeOfMotionofRobot.testInstance();
+//        StacksWithTwoQueue.testInstance();
+//        Fibonacci.testInstance();
+//        MinNumberInRotateArray.testInstance();
+//        PathInMatrix.testInstance();
+//        RangeOfMotionofRobot.testInstance();
+        MaxProductAfterCutting.testInstance();
     }
 }
