@@ -16,5 +16,6 @@ public class Main {
         Fibonacci.testInstance();
         MinNumberInRotateArray.testInstance();
         PathInMatrix.testInstance();
+        RangeOfMotionofRobot.testInstance();
     }
 }
