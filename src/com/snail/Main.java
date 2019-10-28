@@ -1,6 +1,6 @@
 package com.snail;
 
-import com.snail.basics.*;
+import com.snail.highqualitycode.PowerWithUnsignedExponend;
 
 public class Main {
 
@@ -17,6 +17,7 @@ public class Main {
 //        MinNumberInRotateArray.testInstance();
 //        PathInMatrix.testInstance();
 //        RangeOfMotionofRobot.testInstance();
-        MaxProductAfterCutting.testInstance();
+//        MaxProductAfterCutting.testInstance();
+        PowerWithUnsignedExponend.testInstance();
     }
 }
