@@ -1,6 +1,7 @@
 package com.snail;
 
 import com.snail.highqualitycode.PowerWithUnsignedExponend;
+import com.snail.highqualitycode.PrintToMaxOfNDigits;
 
 public class Main {
 
@@ -18,6 +19,7 @@ public class Main {
 //        PathInMatrix.testInstance();
 //        RangeOfMotionofRobot.testInstance();
 //        MaxProductAfterCutting.testInstance();
-        PowerWithUnsignedExponend.testInstance();
+//        PowerWithUnsignedExponend.testInstance();
+        PrintToMaxOfNDigits.testInstance();
     }
 }
