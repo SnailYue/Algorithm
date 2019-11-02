@@ -1,5 +1,6 @@
 package com.snail;
 
+import com.snail.highqualitycode.DeleteNodeOfListNode;
 import com.snail.highqualitycode.PowerWithUnsignedExponend;
 import com.snail.highqualitycode.PrintToMaxOfNDigits;
 
@@ -20,6 +21,7 @@ public class Main {
 //        RangeOfMotionofRobot.testInstance();
 //        MaxProductAfterCutting.testInstance();
 //        PowerWithUnsignedExponend.testInstance();
-        PrintToMaxOfNDigits.testInstance();
+//        PrintToMaxOfNDigits.testInstance();
+        DeleteNodeOfListNode.testInstance();
     }
 }
