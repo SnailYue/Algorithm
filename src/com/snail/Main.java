@@ -1,5 +1,6 @@
 package com.snail;
 
+import com.snail.highqualitycode.DeleteDumplicationNodeOfListNode;
 import com.snail.highqualitycode.DeleteNodeOfListNode;
 import com.snail.highqualitycode.PowerWithUnsignedExponend;
 import com.snail.highqualitycode.PrintToMaxOfNDigits;
@@ -22,6 +23,7 @@ public class Main {
 //        MaxProductAfterCutting.testInstance();
 //        PowerWithUnsignedExponend.testInstance();
 //        PrintToMaxOfNDigits.testInstance();
-        DeleteNodeOfListNode.testInstance();
+//        DeleteNodeOfListNode.testInstance();
+        DeleteDumplicationNodeOfListNode.testInstance();
     }
 }
