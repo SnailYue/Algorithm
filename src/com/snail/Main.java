@@ -22,6 +22,7 @@ public class Main {
 //        PrintToMaxOfNDigits.testInstance();
 //        DeleteNodeOfListNode.testInstance();
 //        DeleteDumplicationNodeOfListNode.testInstance();
-        FindKthToTail.testInstance();
+//        FindKthToTail.testInstance();
+        EntryNodeOfNodeLoop.testInstance();
     }
 }
