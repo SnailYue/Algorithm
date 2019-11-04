@@ -1,9 +1,6 @@
 package com.snail;
 
-import com.snail.highqualitycode.DeleteDumplicationNodeOfListNode;
-import com.snail.highqualitycode.DeleteNodeOfListNode;
-import com.snail.highqualitycode.PowerWithUnsignedExponend;
-import com.snail.highqualitycode.PrintToMaxOfNDigits;
+import com.snail.highqualitycode.*;
 
 public class Main {
 
@@ -24,6 +21,7 @@ public class Main {
 //        PowerWithUnsignedExponend.testInstance();
 //        PrintToMaxOfNDigits.testInstance();
 //        DeleteNodeOfListNode.testInstance();
-        DeleteDumplicationNodeOfListNode.testInstance();
+//        DeleteDumplicationNodeOfListNode.testInstance();
+        FindKthToTail.testInstance();
     }
 }
