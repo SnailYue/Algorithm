@@ -24,6 +24,7 @@ public class Main {
 //        DeleteDumplicationNodeOfListNode.testInstance();
 //        FindKthToTail.testInstance();
 //        EntryNodeOfNodeLoop.testInstance();
-        ReverseListNode.testInstance();
+//        ReverseListNode.testInstance();
+        MergeListNode.testInstance();
     }
 }
