@@ -23,6 +23,7 @@ public class Main {
 //        DeleteNodeOfListNode.testInstance();
 //        DeleteDumplicationNodeOfListNode.testInstance();
 //        FindKthToTail.testInstance();
-        EntryNodeOfNodeLoop.testInstance();
+//        EntryNodeOfNodeLoop.testInstance();
+        ReverseListNode.testInstance();
     }
 }
