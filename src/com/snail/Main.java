@@ -25,6 +25,7 @@ public class Main {
 //        FindKthToTail.testInstance();
 //        EntryNodeOfNodeLoop.testInstance();
 //        ReverseListNode.testInstance();
-        MergeListNode.testInstance();
+//        MergeListNode.testInstance();
+        SameSubTree.testInstance();
     }
 }
