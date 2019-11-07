@@ -1,6 +1,7 @@
 package com.snail;
 
 import com.snail.highqualitycode.*;
+import com.snail.thinkingofinterviewquestion.MirrorOfBinaryTree;
 
 public class Main {
 
@@ -26,6 +27,7 @@ public class Main {
 //        EntryNodeOfNodeLoop.testInstance();
 //        ReverseListNode.testInstance();
 //        MergeListNode.testInstance();
-        SameSubTree.testInstance();
+//        SameSubTree.testInstance();
+        MirrorOfBinaryTree.testInstance();
     }
 }
