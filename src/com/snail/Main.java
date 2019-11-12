@@ -1,10 +1,7 @@
 package com.snail;
 
 import com.snail.highqualitycode.*;
-import com.snail.thinkingofinterviewquestion.MinElementOfStack;
-import com.snail.thinkingofinterviewquestion.MirrorOfBinaryTree;
-import com.snail.thinkingofinterviewquestion.PrintMatrixClockwisely;
-import com.snail.thinkingofinterviewquestion.SymmetryBinaryTree;
+import com.snail.thinkingofinterviewquestion.*;
 
 public class Main {
 
@@ -34,6 +31,7 @@ public class Main {
 //        MirrorOfBinaryTree.testInstance();
 //        SymmetryBinaryTree.testInstance();
 //        PrintMatrixClockwisely.testInstance();
-        MinElementOfStack.testInstance();
+//        MinElementOfStack.testInstance();
+        PushAndPopOfStack.testInstance();
     }
 }
