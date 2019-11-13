@@ -32,6 +32,7 @@ public class Main {
 //        SymmetryBinaryTree.testInstance();
 //        PrintMatrixClockwisely.testInstance();
 //        MinElementOfStack.testInstance();
-        PushAndPopOfStack.testInstance();
+//        PushAndPopOfStack.testInstance();
+        PrintBinaryFromTopToBottom.testInstance();
     }
 }
