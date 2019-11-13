@@ -33,6 +33,7 @@ public class Main {
 //        PrintMatrixClockwisely.testInstance();
 //        MinElementOfStack.testInstance();
 //        PushAndPopOfStack.testInstance();
-        PrintBinaryFromTopToBottom.testInstance();
+//        PrintBinaryFromTopToBottom.testInstance();
+        PositiveAndReversePrintBinaryTree.testInstance();
     }
 }
