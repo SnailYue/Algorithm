@@ -34,6 +34,7 @@ public class Main {
 //        MinElementOfStack.testInstance();
 //        PushAndPopOfStack.testInstance();
 //        PrintBinaryFromTopToBottom.testInstance();
-        PositiveAndReversePrintBinaryTree.testInstance();
+//        PositiveAndReversePrintBinaryTree.testInstance();
+        VerifySquenceOfBST.testInstance();
     }
 }
