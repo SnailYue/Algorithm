@@ -36,6 +36,8 @@ public class Main {
 //        PrintBinaryFromTopToBottom.testInstance();
 //        PositiveAndReversePrintBinaryTree.testInstance();
 //        VerifySquenceOfBST.testInstance();
-        FindPathOfBinaryTree.testInstance();
+//        FindPathOfBinaryTree.testInstance();
+//        CopyOfComplexListNode.testInstance();
+        BinaryTreeWithDoublyLinkedList.testInstance();
     }
 }
