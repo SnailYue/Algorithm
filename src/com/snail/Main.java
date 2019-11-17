@@ -38,6 +38,7 @@ public class Main {
 //        VerifySquenceOfBST.testInstance();
 //        FindPathOfBinaryTree.testInstance();
 //        CopyOfComplexListNode.testInstance();
-        BinaryTreeWithDoublyLinkedList.testInstance();
+//        BinaryTreeWithDoublyLinkedList.testInstance();
+        SerializeAndDeserializeOfBinaryTree.testInstance();
     }
 }
