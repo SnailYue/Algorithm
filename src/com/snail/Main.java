@@ -39,6 +39,7 @@ public class Main {
 //        FindPathOfBinaryTree.testInstance();
 //        CopyOfComplexListNode.testInstance();
 //        BinaryTreeWithDoublyLinkedList.testInstance();
-        SerializeAndDeserializeOfBinaryTree.testInstance();
+//        SerializeAndDeserializeOfBinaryTree.testInstance();
+        ArrangementOfStrings.testInstance();
     }
 }
