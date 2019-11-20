@@ -1,5 +1,6 @@
 package com.snail;
 
+import com.snail.dynamicplanning.FindMaxSumOfArrays;
 import com.snail.highqualitycode.*;
 import com.snail.thinkingofinterviewquestion.*;
 
@@ -40,6 +41,7 @@ public class Main {
 //        CopyOfComplexListNode.testInstance();
 //        BinaryTreeWithDoublyLinkedList.testInstance();
 //        SerializeAndDeserializeOfBinaryTree.testInstance();
-        ArrangementOfStrings.testInstance();
+//        ArrangementOfStrings.testInstance();
+        FindMaxSumOfArrays.testInstance();
     }
 }
