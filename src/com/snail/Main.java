@@ -1,6 +1,7 @@
 package com.snail;
 
 import com.snail.dynamicplanning.FindMaxSumOfArrays;
+import com.snail.dynamicplanning.FindNumberOfTracks;
 import com.snail.dynamicplanning.ShopeeOffice;
 import com.snail.highqualitycode.*;
 import com.snail.thinkingofinterviewquestion.*;
@@ -44,6 +45,7 @@ public class Main {
 //        SerializeAndDeserializeOfBinaryTree.testInstance();
 //        ArrangementOfStrings.testInstance();
 //        FindMaxSumOfArrays.testInstance();
-        ShopeeOffice.testInstance();
+//        ShopeeOffice.testInstance();
+        FindNumberOfTracks.testInstance();
     }
 }
