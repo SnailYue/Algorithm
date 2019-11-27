@@ -1,9 +1,6 @@
 package com.snail;
 
-import com.snail.dynamicplanning.BestTimeTobuyAndSellStocks;
-import com.snail.dynamicplanning.FindMaxSumOfArrays;
-import com.snail.dynamicplanning.FindNumberOfTracks;
-import com.snail.dynamicplanning.ShopeeOffice;
+import com.snail.dynamicplanning.*;
 import com.snail.highqualitycode.*;
 import com.snail.thinkingofinterviewquestion.*;
 
@@ -48,6 +45,7 @@ public class Main {
 //        FindMaxSumOfArrays.testInstance();
 //        ShopeeOffice.testInstance();
 //        FindNumberOfTracks.testInstance();
-        BestTimeTobuyAndSellStocks.testInstance();
+//        BestTimeTobuyAndSellStocks.testInstance();
+        MinCostClimbingStairs.testInstance();
     }
 }
