@@ -10,20 +10,23 @@ public class FindMaxSumOfArrays {
      * 由于题目要求是连续的子数组，对于数组中的某个值arrs[i]，我们只需知道将其与arrs[i-1]的和进行比较，
      * 若相加的值大于arr[i-1]和中的值，则认为此值可以让数组中的和增大，以此重复计算。
      *
-     * @param arr
+     * @param nums
      * @return
      */
-    public static int findMaxSumOfArrays(int[] arr) {
-        if (null == arr || 0 == arr.length) {
+    public static int findMaxSumOfArrays(int[] nums) {
+        if (null == nums || 0 == nums.length) {
             return 0;
         }
         int currentSum = 0;
         int findMax = Integer.MIN_VALUE;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
+            /**
+             * 当currentSum的值小于0时，将计算和的连续索引往后移动。
+             */
             if (currentSum <= 0) {
-                currentSum = arr[i];
+                currentSum = nums[i];
             } else {
-                currentSum += arr[i];
+                currentSum += nums[i];
             }
             if (currentSum > findMax) {
                 findMax = currentSum;

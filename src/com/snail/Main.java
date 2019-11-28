@@ -46,6 +46,7 @@ public class Main {
 //        ShopeeOffice.testInstance();
 //        FindNumberOfTracks.testInstance();
 //        BestTimeTobuyAndSellStocks.testInstance();
-        MinCostClimbingStairs.testInstance();
+//        MinCostClimbingStairs.testInstance();
+        StealMaxMoney.testInstance();
     }
 }
