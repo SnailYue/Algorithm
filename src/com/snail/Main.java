@@ -47,6 +47,7 @@ public class Main {
 //        FindNumberOfTracks.testInstance();
 //        BestTimeTobuyAndSellStocks.testInstance();
 //        MinCostClimbingStairs.testInstance();
-        StealMaxMoney.testInstance();
+//        StealMaxMoney.testInstance();
+        NumArray.testInstance();
     }
 }
