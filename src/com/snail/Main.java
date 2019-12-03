@@ -48,6 +48,7 @@ public class Main {
 //        BestTimeTobuyAndSellStocks.testInstance();
 //        MinCostClimbingStairs.testInstance();
 //        StealMaxMoney.testInstance();
-        NumArray.testInstance();
+//        NumArray.testInstance();
+        NumberOfPalindromes.testInstance();
     }
 }
