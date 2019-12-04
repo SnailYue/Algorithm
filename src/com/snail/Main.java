@@ -49,6 +49,7 @@ public class Main {
 //        MinCostClimbingStairs.testInstance();
 //        StealMaxMoney.testInstance();
 //        NumArray.testInstance();
-        NumberOfPalindromes.testInstance();
+//        NumberOfPalindromes.testInstance();
+        ArithmeticSequenceDivision.testInstance();
     }
 }
