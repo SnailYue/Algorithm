@@ -50,6 +50,7 @@ public class Main {
 //        StealMaxMoney.testInstance();
 //        NumArray.testInstance();
 //        NumberOfPalindromes.testInstance();
-        ArithmeticSequenceDivision.testInstance();
+//        ArithmeticSequenceDivision.testInstance();
+        MinASCIISumOfDeleteStrings.testInstance();
     }
 }
