@@ -51,6 +51,8 @@ public class Main {
 //        NumArray.testInstance();
 //        NumberOfPalindromes.testInstance();
 //        ArithmeticSequenceDivision.testInstance();
-        MinASCIISumOfDeleteStrings.testInstance();
+//        MinASCIISumOfDeleteStrings.testInstance();
+        NumSubarrayProductLessThanK.testInstance();
     }
+
 }
