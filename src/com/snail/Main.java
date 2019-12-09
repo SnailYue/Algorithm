@@ -52,7 +52,8 @@ public class Main {
 //        NumberOfPalindromes.testInstance();
 //        ArithmeticSequenceDivision.testInstance();
 //        MinASCIISumOfDeleteStrings.testInstance();
-        NumSubarrayProductLessThanK.testInstance();
+//        NumSubarrayProductLessThanK.testInstance();
+        IntegerBreak.testInstance();
     }
 
 }
