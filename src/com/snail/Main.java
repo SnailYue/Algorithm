@@ -53,7 +53,8 @@ public class Main {
 //        ArithmeticSequenceDivision.testInstance();
 //        MinASCIISumOfDeleteStrings.testInstance();
 //        NumSubarrayProductLessThanK.testInstance();
-        IntegerBreak.testInstance();
+//        IntegerBreak.testInstance();
+        CountNumberWithUniqueDigits.testInstance();
     }
 
 }
