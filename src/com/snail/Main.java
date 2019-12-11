@@ -55,7 +55,8 @@ public class Main {
 //        NumSubarrayProductLessThanK.testInstance();
 //        IntegerBreak.testInstance();
 //        CountNumberWithUniqueDigits.testInstance();
-        UniquePaths.testInstance();
+//        UniquePaths.testInstance();
+        MinPathsSum.testInstance();
     }
 
 }
