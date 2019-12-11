@@ -54,7 +54,8 @@ public class Main {
 //        MinASCIISumOfDeleteStrings.testInstance();
 //        NumSubarrayProductLessThanK.testInstance();
 //        IntegerBreak.testInstance();
-        CountNumberWithUniqueDigits.testInstance();
+//        CountNumberWithUniqueDigits.testInstance();
+        UniquePaths.testInstance();
     }
 
 }
