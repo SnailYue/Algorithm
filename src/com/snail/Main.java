@@ -56,7 +56,8 @@ public class Main {
 //        IntegerBreak.testInstance();
 //        CountNumberWithUniqueDigits.testInstance();
 //        UniquePaths.testInstance();
-        MinPathsSum.testInstance();
+//        MinPathsSum.testInstance();
+        MinimumTotal.testInstance();
     }
 
 }
