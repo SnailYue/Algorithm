@@ -57,7 +57,8 @@ public class Main {
 //        CountNumberWithUniqueDigits.testInstance();
 //        UniquePaths.testInstance();
 //        MinPathsSum.testInstance();
-        MinimumTotal.testInstance();
+//        MinimumTotal.testInstance();
+        WordBreak.testInstance();
     }
 
 }
