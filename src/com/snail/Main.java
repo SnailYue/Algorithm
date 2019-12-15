@@ -58,7 +58,8 @@ public class Main {
 //        UniquePaths.testInstance();
 //        MinPathsSum.testInstance();
 //        MinimumTotal.testInstance();
-        WordBreak.testInstance();
+//        WordBreak.testInstance();
+        CoinChange.testInstance();
     }
 
 }
