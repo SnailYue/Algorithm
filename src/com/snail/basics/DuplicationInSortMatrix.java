@@ -4,7 +4,7 @@ public class DuplicationInSortMatrix {
 
 
     /**
-     * 题目：二维数组，从左至右递增，从上至下递增，输入一个整数，判断数组中是否含有
+     * 题目：二维数组，从左至右递增，从上至下递增，输入一个整数，判断数组中是否含有要查找的数
      * <p>
      * 解题思路：选取数组中右上角的数字，如果该数字等于要找的数，则结束查找。
      * 如果该数字大于要查找的数字，则剔除这个数字所在的列。
@@ -21,26 +21,26 @@ public class DuplicationInSortMatrix {
             return false;
         }
         int rowMax = data.length - 1;
-        int colMax = data[0].length - 1;
-        int rowCur = data.length - 1;
-        int colCur = 0;
+        int colCur = data.length - 1;
+        int rowCur = 0;
         while (true) {
-            if (rowCur < 0 || rowCur > rowMax || colCur > colMax) {
+            if (colCur < 0 || rowCur > rowMax) {
                 return false;
             }
             if (data[rowCur][colCur] == target) {
                 return true;
             }
-            if (data[rowCur][colCur] > target) {
-                rowCur--;
+            if (data[rowCur][colCur] < target) {
+                rowCur++;
             } else {
-                colCur++;
+                colCur--;
             }
         }
     }
 
     public static void testInstance() {
-        int[][] data = {{1, 2, 8, 9},
+        int[][] data = {
+                {1, 2, 8, 9},
                 {2, 4, 9, 12},
                 {4, 7, 10, 13},
                 {4, 8, 11, 15}};

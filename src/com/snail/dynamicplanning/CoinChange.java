@@ -30,7 +30,7 @@ public class CoinChange {
     }
 
     public static void testInstance() {
-        int[] coins = new int[]{186, 419, 83, 408};
-        System.out.println("result = " + coinChange(coins, 6249));
+        int[] coins = new int[]{1, 2, 5};
+        System.out.println("result = " + coinChange(coins, 11));
     }
 }

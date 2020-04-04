@@ -1,5 +1,8 @@
 package com.snail;
 
+import com.snail.basics.DuplicationInArray;
+import com.snail.basics.DuplicationInSortMatrix;
+import com.snail.basics.MaxProductAfterCutting;
 import com.snail.dynamicplanning.*;
 import com.snail.highqualitycode.*;
 import com.snail.thinkingofinterviewquestion.*;
@@ -19,7 +22,7 @@ public class Main {
 //        MinNumberInRotateArray.testInstance();
 //        PathInMatrix.testInstance();
 //        RangeOfMotionofRobot.testInstance();
-//        MaxProductAfterCutting.testInstance();
+        MaxProductAfterCutting.testInstance();
 //        PowerWithUnsignedExponend.testInstance();
 //        PrintToMaxOfNDigits.testInstance();
 //        DeleteNodeOfListNode.testInstance();
@@ -59,7 +62,8 @@ public class Main {
 //        MinPathsSum.testInstance();
 //        MinimumTotal.testInstance();
 //        WordBreak.testInstance();
-        CoinChange.testInstance();
+//        CoinChange.testInstance();
+//        CountNumberWithUniqueDigits.testInstance();
     }
 
 }

@@ -25,6 +25,7 @@ public class DuplicationInArray {
                 if (data[i] == data[data[i]]) {
                     return data[i];
                 } else {
+                    //交换数组中两个数之间的位置
                     int temp = data[i];
                     data[i] = data[temp];
                     data[temp] = temp;
